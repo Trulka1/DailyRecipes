@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+table {
+  border: 2px solid theme("colors.primary.DEFAULT");
+  width: 100%;
+}
+tr {
+  border: 2px solid theme("colors.primary.DEFAULT"); /* границы между строками */
+}
+td,
+th {
+  border: 2px solid theme("colors.primary.DEFAULT"); /* границы между столбцами */
+}
+td {
+  text-align: center;
+}
+.h3 {
+  font-size: 1.4rem;
+  line-height: 1.5rem;
+}
+.h2 {
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+}
+.text-center {
+  text-align: center;
+}
+.col-1 {
+  width: 10%;
+}
+.col-10 {
+  width: 80%;
+}
+.width-850{
+  width: 850px;
+}
